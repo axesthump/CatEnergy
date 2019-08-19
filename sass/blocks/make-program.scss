@@ -2,7 +2,7 @@
 	font-family: $font-os;
 	color: #ffffff;
 
-	width: 280px;
+	width: 320px;
 	margin: 0 auto;
 }
 
@@ -45,10 +45,11 @@
 .make-program__img {
 	position: absolute;
 	top: -130px;
-	left: 0;
+	left: 20px;
 }
 
 .make-program__button {
-	margin-top: 50px;
-	display: inline-block;
+	margin: 0 auto;
+	margin-top: 140px;
+	margin-left: 20px;
 }

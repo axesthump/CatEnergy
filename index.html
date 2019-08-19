@@ -84,27 +84,39 @@
 			<p class="example__text">
 				Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.
 			</p>
-			<div class="example__stats"><b class="example__bold-text">5 кг</b> снижение веса</div>
-			<div class="example__stats"><b class="example__bold-text">5 кг</b> снижение веса</div>
+			<div class="example__wrapper-stats">
+				<div class="example__stats">
+					<b class="example__bold-text">5 кг</b>
+					<span class="example__small-text">снижение веса</span>
+				</div>
+				<div class="example__stats">
+					<b class="example__bold-text">60 дней</b>
+					<span class="example__small-text">затрачено времени</span>
+				</div>
+			</div>
 			<p class="example__expenses">Затраты на питание: 15 000 руб.</p>
 			<div class="example__slider slider">
-				<img src="img/slider.png" alt="До" class="slider__img">
-				<button class="slider__btn">Было</button>
-				<button class="slider__btn">Стало</button>
+				<img src="img/slider/before-mobile.png" alt="До" class="slider__img slider__img--before" width="311" height="232">
+				<img src="img/slider/after-mobile.png" alt="После" class="slider__img slider__img--after" width="311" height="232">
+				<div class="slider__wrapper">
+					<button class="slider__btn">Было</button>
+					<div class="slider__toggle"></div>
+					<button class="slider__btn">Стало</button>
+				</div>
 			</div>
 		</section>
 		<section class="map">
-			<p class="map__text">
-				<b class="map__invaite">
-					Приглашаем к сотрудничеству дилеров!
-				</b>
+			<div class="map__text">
+				<p class="map__invaite">
+					<b>Приглашаем к сотрудничеству дилеров!</b>
+				</p>
 				<p class="map__adress">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
-			</p>
-			<img src="img/map-mobile.jpg" alt="ул. Большая Конюшенная, д. 19/8 Санкт-Петербург" class="map__img">
+			</div>
+			<img src="img/map/map.png" alt="ул. Большая Конюшенная, д. 19/8 Санкт-Петербург" class="map__img" width="320" height="400">
 		</section>
 	</main>
 	<footer class="main-footer">
-		<a class="main-footer__logo-text">Cat Energy</a>
+		<a class="main-footer__logo-text"><b>Cat</b> Energy</a>
 		<div class="main-footer__social social">
 			<ul class="social__list">
 				<li class="social__item social__item--vk">Вконтакте</li>
