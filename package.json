@@ -1,0 +1,23 @@
+{
+  "name": "catenergy",
+  "version": "1.0.0",
+  "description": "Мой проект",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp-autoprefixer": "^7.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.12.0",
+    "browser-sync": "^2.26.7"
+  },
+  "scripts": {
+    "test": "npm run editorconfig && npm run stylelint",
+    "build": "gulp build",
+    "start": "npm run build && gulp serve"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "run-sequence": "^2.2.1"
+  }
+}

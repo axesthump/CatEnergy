@@ -1,0 +1,20 @@
+.page-header {
+	display: flex;
+	justify-content: space-between;
+	font-family: $font-os;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 280px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.page-header__logo-text {
+	font-size: 24px;
+	line-height: 37px;
+	text-transform: uppercase;
+}
+
+.site-list {
+	display: none;
+}

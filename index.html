@@ -3,15 +3,17 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Cat Energy - займись котом!</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap&subset=cyrillic,cyrillic-ext" rel="stylesheet">
 </head>
 <body>
 	<header class="page-header">
 		<a href="#" class="page-header__logo">
 			<img src="img/logo-mobile.svg" alt="Cat Energy" class="page-header__logo-image" width="33" height="38">
-			<span class="page-header__logo-text">
-				<b>Cat</b> Energy
-			</span>
 		</a>
+		<span class="page-header__logo-text">
+			<b>Cat</b> Energy
+		</span>
 		<nav class="main-nav">
 			<button class="main-nav__toggle">Открыть меню</button>
 			<ul class="main-nav__list site-list">
@@ -24,9 +26,13 @@
 	<main class="page-main">
 		<h1 class="visually-hidden">Cat Energy - функциональное питание для котов</h1>
 		<section class="make-program">
-			<h2 class="make-program__title">Функциональное питание для котов</h2>
-			<p class="make-program__text">Занялся собой? Займись котом!</p>
-			<img src="img/cat-food.png" alt="Cat Energy со вкусом курицы" class="make-program__img" width="280" height="270">
+			<div class="page-main__wrapper">
+				<h2 class="make-program__title">Функциональное питание для котов</h2>
+				<p class="make-program__text">Занялся собой? Займись котом!</p>
+			</div>
+			<div class="make-program__wrapper-img">
+				<img src="img/make-program/cat-food.png" alt="Cat Energy со вкусом курицы" class="make-program__img" width="280" height="270">
+			</div>
 			<a href="program.html" class="make-program__button button">Подобрать программу</a>
 		</section>
 		<section class="program-type">
