@@ -1,0 +1,47 @@
+.profile__text {
+	font-family: $font-os;
+	font-size: 14px;
+	line-height: 18px;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.form__name {
+	font-family: $font-os;
+	font-size: 24px;
+	line-height: 24px;
+	color: #000000;
+}
+
+.form__label-name {
+	font-family: $font-os;
+	font-size: 16px;
+	line-height: 18px;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.form__input {
+	font-family: $font-os;
+	font-size: 16px;
+	line-height: 18px;
+	text-transform: uppercase;
+	color: #000000;
+
+	padding: 5px;
+}
+
+.form__add {
+	font-family: $font-os;
+	font-size: 16px;
+	line-height: 18px;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.form__must-have-field {
+	font-family: 'Arial', sans-serif;
+	font-size: 14px;
+	line-height: 16px;
+	color: #444444;
+}
