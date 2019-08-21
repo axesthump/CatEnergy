@@ -45,11 +45,121 @@
 .make-program__img {
 	position: absolute;
 	top: -130px;
-	left: 20px;
+	left: 0;
+}
+
+.make-program__img--big,
+.make-program__img--desktop {
+	display: none;
 }
 
 .make-program__button {
 	margin: 0 auto;
-	margin-top: 140px;
+	margin-top: 160px;
 	margin-left: 20px;
+}
+
+@media (min-width: $tablet-width) {
+	.make-program {
+		width: 528px;
+		padding-left: 120px;
+		padding-right: 120px;
+	}
+
+	.page-main__wrapper {
+		background: none;
+		color: #000000;
+		min-height: 205px;
+		margin-bottom: 40px;
+
+	}
+
+	.make-program__title {
+		text-align: left;
+
+		margin: 0;
+		padding: 0;
+		margin-bottom: 40px;
+
+		font-size: 60px;
+		line-height: 60px;
+	}
+
+	.make-program__text {
+		text-align: left;
+
+		font-size: 20px;
+		line-height: 20px;
+
+		margin-bottom: 0;
+	}
+
+	.make-program__img--small {
+		display: none;
+	}
+
+	.make-program__img--big {
+		display: block;
+		top: -30px;
+	}
+
+	.make-program__button {
+		position: relative;
+		z-index: 1;
+
+		margin: 0;
+		margin-bottom: 450px;
+
+		width: 245px;
+
+		font-size: 20px;
+		line-height: 20px;
+	}
+}
+
+@media (min-width: $desktop-width) {
+	.make-program {
+		width: 1220px;
+		padding-left: 110px;
+		padding-right: 110px;
+	}
+
+	.make-program__title {
+		width: 420px;
+		padding-left: 80px;
+	}
+
+	.make-program__text {
+		font-size: 20px;
+		line-height: 20px;
+
+		padding-left: 80px;
+	}
+
+	.make-program__img--big, {
+		display: none;
+	}
+
+	.make-program__img--desktop {
+		display: block;
+		width: 552px;
+		height: 499px;
+
+		top: -300px;
+		left: 430px;
+	}
+
+	.make-program__button {
+		margin-left: 80px;
+	}
+
+	.page-main__wrapper {
+		margin-bottom: 20px;
+	}
+
+	body {
+		background-image: url(../../img/make-program/index-background-desktop.png);
+		background-repeat: no-repeat;
+		background-position: 100% 0;
+	}
 }
