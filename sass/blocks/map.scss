@@ -15,6 +15,12 @@
 .map__invaite {
 	width: 125px;
 
+	font-family: $font-os;
+	font-size: 16px;
+	line-height: 20px;
+	text-transform: uppercase;
+	font-weight: lighter;
+
 	margin: 0;
 	padding: 0;
 }
@@ -22,6 +28,93 @@
 .map__adress {
 	width: 125px;
 
+	font-family: 'Arial', sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	color: #444444;
+
 	margin: 0;
 	padding: 0;
+}
+
+.mag__img--tablet,
+.mag__img--desktop {
+	display: none;
+}
+
+@media (min-width: $tablet-width) {
+	.map {
+		width: 768px;
+	}
+
+	.map__text {
+		width: 626px;
+		padding-left: 71px;
+		padding-right: 71px;
+
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+	}
+
+	.map__adress {
+		text-align: right;
+		font-size: 16px;
+		line-height: 20px;
+
+		width: 195px;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+	}
+
+	.map__invaite {
+		font-size: 20px;
+		line-height: 25px;
+	}
+
+	.map__city {
+		margin-top: 20px;
+	}
+
+	.mag__img--phone {
+		display: none;
+	}
+
+	.mag__img--tablet {
+		display: block;
+	}
+}
+
+@media (min-width: $desktop-width) {
+	.map {
+		width: 1440px;
+		position: relative;
+	}
+
+	.mag__img--tablet {
+		display: none;
+	}
+
+	.mag__img--desktop {
+		display: block;
+	}
+
+	.map__text {
+		width: 520px;
+
+		padding: 15px;
+
+		background-color: #ffffff;
+
+		justify-content: space-around;
+
+		position: absolute;
+
+		top: 150px;
+		left: 100px;
+
+		z-index: 1;
+	}
 }

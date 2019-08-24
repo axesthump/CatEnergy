@@ -108,7 +108,7 @@
 		z-index: 1;
 
 		margin: 0;
-		margin-bottom: 450px;
+		margin-bottom: 400px;
 
 		width: 245px;
 
@@ -155,11 +155,25 @@
 
 	.page-main__wrapper {
 		margin-bottom: 20px;
+		position: relative;
+
+		&::after {
+			content: "";
+
+			position: absolute;
+			width: 720px;
+			height: 696px;
+			background-image: url(../img/make-program/index-background-desktop.png);
+			background-repeat: no-repeat;
+			background-position: 0 0;
+
+			top: -173px;
+			left: 681px;
+		}
 	}
 
-	body {
-		background-image: url(../../img/make-program/index-background-desktop.png);
-		background-repeat: no-repeat;
-		background-position: 100% 0;
+	.main-nav {
+		position: relative;
+		z-index: 1;
 	}
 }
