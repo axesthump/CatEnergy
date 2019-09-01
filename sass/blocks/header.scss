@@ -14,9 +14,9 @@
 	margin-bottom: 10px;
 }
 
-.page-header__log-big {
+/* .page-header__log-big {
 	display: none;
-}
+} */
 
 .page-header__logo {
 	margin-bottom: auto;
@@ -40,6 +40,7 @@
 	height: 2px;
 
 	margin-top: 18px;
+	margin-left: 85px;
 
 	position: relative;
 
@@ -87,6 +88,12 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+
+	display: none;
+}
+
+.site-list--active {
+	display: flex;
 }
 
 .site-list__item {
@@ -123,10 +130,6 @@
 	}
 
 	.page-header__logo {
-		display: none;
-	}
-
-	.page-header__log-big {
 		display: inline-block;
 		min-width: 173px;
 	}

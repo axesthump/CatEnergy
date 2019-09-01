@@ -10,10 +10,10 @@
 <body>
 	<header class="page-header">
 		<a href="#" class="page-header__logo">
-			<img src="img/logo-mobile.svg" alt="Cat Energy" class="page-header__logo-image" width="33" height="38">
-		</a>
-		<a href="#" class="page-header__log-big">
-			<img src="img/logo-tablet.png" alt="Cat Energy" class="page-header__logo-image" width="173" height="58">
+			<picture>
+				<source media="(min-width: 768px)" srcset="img/logo-tablet.png">
+				<img src="img/logo-mobile.svg" alt="Cat Energy" class="page-header__logo-image" width="33" height="38">
+			</picture>
 		</a>
 		<span class="page-header__logo-text">
 			<b>Cat</b> Energy
@@ -35,9 +35,11 @@
 				<p class="make-program__text">Занялся собой? Займись котом!</p>
 			</div>
 			<div class="make-program__wrapper-img">
-				<img src="img/make-program/cat-food.png" alt="Cat Energy со вкусом курицы" class="make-program__img make-program__img--small" width="280" height="270">
-				<img src="img/make-program/index-can-tablet.png" alt="Cat Energy со вкусом курицы" class="make-program__img make-program__img--big" width="709" height="609">
-				<img src="img/make-program/index-can.png" alt="Cat Energy со вкусом курицы" class="make-program__img make-program__img--desktop" width="552" height="499">
+				<picture>
+					<source media="(min-width: 1200px)" srcset="img/make-program/index-can.png">
+					<source media="(min-width: 768px)" srcset="img/make-program/index-can-tablet.png">
+					<img src="img/make-program/cat-food.png" alt="Cat Energy со вкусом курицы" class="make-program__img" width="280" height="270">
+				</picture>
 			</div>
 			<a href="program.html" class="make-program__button button">Подобрать программу</a>
 		</section>
@@ -123,9 +125,11 @@
 				</p>
 				<p class="map__adress"><span class="map__street">ул. Большая</span><span class="map__house">Конюшенная, д. 19/8</span> <span class="map__city">Санкт-Петербург</span></p>
 			</div>
-			<img src="img/map/map.png" alt="ул. Большая Конюшенная, д. 19/8 Санкт-Петербург" class="map__img mag__img--phone" width="320" height="400">
-			<img src="img/map/map-tablet.png" alt="ул. Большая Конюшенная, д. 19/8 Санкт-Петербург" class="map__img mag__img--tablet" width="767" height="400">
-			<img src="img/map/map-desktop.png" alt="ул. Большая Конюшенная, д. 19/8 Санкт-Петербург" class="map__img mag__img--desktop" width="1440" height="400">
+			<picture>
+				<source media="(min-width: 1200px)" srcset="img/map/map-desktop.png">
+				<source media="(min-width: 768px)" srcset="img/map/map-tablet.png">
+				<img src="img/map/map.png" alt="ул. Большая Конюшенная, д. 19/8 Санкт-Петербург" class="map__img" width="320" height="400">
+			</picture>
 		</section>
 	</main>
 	<footer class="main-footer">
@@ -141,5 +145,6 @@
 			<span class="copyright__text">Axesthump</span>
 		</div>
 	</footer>
+<script src="js/nav-open.js"></script>
 </body>
 </html>
