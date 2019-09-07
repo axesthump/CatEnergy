@@ -100,14 +100,14 @@
 	display: none;
 }
 
-.site-list--active {
-	display: flex;
-}
-
 .site-list__item {
 	flex-grow: 1;
 	text-align: center;
 	padding: 10px 0;
+}
+
+.site-list--active {
+	display: flex;
 }
 
 .site-list__item a {

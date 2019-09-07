@@ -312,17 +312,17 @@ img {
           align-items: center;
   display: none; }
 
-.site-list--active {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
-
 .site-list__item {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
   text-align: center;
   padding: 10px 0; }
+
+.site-list--active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
 
 .site-list__item a {
   color: #000000;
