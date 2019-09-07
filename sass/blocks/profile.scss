@@ -85,6 +85,10 @@
 	cursor: pointer;
 
 	z-index: 1;
+
+	&:active {
+		opacity: 0.5;
+	}
 }
 
 .form__radio-pos {
@@ -229,6 +233,10 @@
 .form__add {
 	padding-left: 45px;
 	margin-bottom: 20px;
+
+	&:active {
+		opacity: 0.5;
+	}
 }
 
 .form__checkbox-pos {

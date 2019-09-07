@@ -255,11 +255,12 @@
 	}
 
 	.complementary-products__wrapper-contain {
-		padding-left: 110px;
-		padding-right: 110px;
+		padding-left: 7%;
+		padding-right: 7%;
 		margin: 0 auto;
-
-		width: 1220px;
+		
+		width: auto;
+		max-width: 1220px;
 
 		display: flex;
 		align-items: center;
@@ -267,7 +268,8 @@
 	}
 
 	.complementary-products__title {
-		width: 1440px;
+		width: auto;
+		max-width: 1440px;
 
 		&::before {
 			width: 70px;

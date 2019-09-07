@@ -20,6 +20,14 @@
 
 .page-header__logo {
 	margin-bottom: auto;
+
+	&:hover {
+		opacity: 0.8;
+	}
+
+	&:active {
+		opacity: 0.5;
+	}
 }
 
 .page-header__logo-text {
@@ -108,6 +116,14 @@
 	font-size: 20px;
 	line-height: 20px;
 	text-transform: uppercase;
+
+	&:hover {
+		opacity: 0.6;
+	}
+
+	&:active {
+		opacity: 0.3;
+	}
 }
 
 
@@ -172,15 +188,27 @@
 
 			bottom: -5px;
 			left: 0;
+
+			cursor: default;
+		}
+
+		&:hover {
+			opacity: 1;
+		}
+
+		&:active {
+			opacity: 1;
 		}
 	}
 }
 
 @media (min-width: $desktop-width) {
 	.page-header {
-		width: 1220px;
-		padding-left: 110px;
-		padding-right: 110px;
+		width: auto;
+		max-width: 1220px;
+		/* padding-left: 110px;
+		padding-right: 110px; */
+		padding: 0 7%;
 
 		margin-bottom: 90px;
 	}

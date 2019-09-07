@@ -103,7 +103,7 @@
 		z-index: 1;
 
 		margin: 0;
-		margin-bottom: 500px;
+		margin-bottom: 600px;
 
 		width: 245px;
 
@@ -114,9 +114,10 @@
 
 @media (min-width: $desktop-width) {
 	.make-program {
-		width: 1220px;
-		padding-left: 110px;
-		padding-right: 110px;
+		width: auto;
+		max-width: 1220px;
+		padding-left: 7%;
+		padding-right: 7%;
 	}
 
 	.make-program__title {
@@ -153,14 +154,14 @@
 			content: "";
 
 			position: absolute;
-			width: 720px;
+			width: 58.1%;
 			height: 696px;
 			background-image: url(../img/make-program/index-background-desktop.png);
 			background-repeat: no-repeat;
 			background-position: 0 0;
 
 			top: -173px;
-			left: 681px;
+			left: 50%;
 		}
 	}
 

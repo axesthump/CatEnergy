@@ -175,9 +175,10 @@
 
 @media (min-width: $desktop-width) {
 	.how-it-work {
-		width: 1220px;
-		padding-left: 110px;
-		padding-right: 110px;
+		width: auto;
+		max-width: 1220px;
+		padding-left: 7%;
+		padding-right: 7%;
 	}
 
 	.how-it-work__list {
